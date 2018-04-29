@@ -49,7 +49,8 @@ public class Main {
   }
 
   @RequestMapping("/")
-  String index() {
+  String index() { 
+	  
     return "index";
   }
 
